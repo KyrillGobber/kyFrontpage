@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 export const MainContent = () => {
-    return <h1>soon</h1>;
+    const { t } = useTranslation();
+    return <h1>{t('random')}</h1>;
 };
 
