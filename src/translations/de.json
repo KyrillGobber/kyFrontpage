@@ -1,3 +1,10 @@
 {
-    "random": "english"
+    "random": "english",
+    "nav": {
+        "myApps": "Meine Apps"
+    },
+    "footer": {
+        "text": "Frontpage made with React and Shadcn, by Kyrill Gobber",
+        "source": "Homepage Source"
+    }
 }

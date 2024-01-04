@@ -1,4 +1,5 @@
 import { Code } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
     return (
@@ -11,15 +12,16 @@ export const Footer = () => {
 
 
 const FooterText = () => {
+    const { t } = useTranslation();
     return (
         <p className="text-sm md:text-base">
-            Frontpage made with React and Shadcn,
-            by Kyrill Gobber
+            {t("footer.text")}
         </p>
     );
 };
 
 const FooterSrc = () => {
+    const { t } = useTranslation();
     return (
         <a
             className="flex flex-row gap-2 text-sm md:text-base"
@@ -27,7 +29,7 @@ const FooterSrc = () => {
             href={'https://github.com/KyrillGobber/teaBruh'}
             rel="noopener noreferrer"
         >
-            Homepage Source
+            {t("footer.source")}
             <Code />
         </a>
     );
