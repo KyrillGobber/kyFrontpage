@@ -1,5 +1,9 @@
 {
-    "random": "english",
+    "random": "dütsch",
+    "languages": {
+        "english": "Englisch",
+        "german": "Deutsch"
+    },
     "nav": {
         "myApps": "Meine Apps"
     },

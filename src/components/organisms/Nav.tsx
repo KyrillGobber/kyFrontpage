@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { ModeToggle } from "../mode-toggle";
 import { Separator } from "../ui/separator";
+import { LanguageSwitcher } from "../atoms/LanguageSwitcher";
 
 export const Nav = () => {
     const { t } = useTranslation();
@@ -13,6 +14,7 @@ export const Nav = () => {
                     </div>
                     <h1>Gobber.ch</h1>
                     <div className="flex flex-row gap-2">
+                        <LanguageSwitcher />
                         <ModeToggle />
                     </div>
                 </div>
