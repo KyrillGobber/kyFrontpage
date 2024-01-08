@@ -53,14 +53,14 @@ const LanguageComponent = ({ langCode }: LanguageComponentProps) => {
             <EN
                 className={cn(
                     langCode === "en" && "rotate-0 scale-100",
-                    langCode === "de" && "rotate-90 scale-0",
+                    langCode === "de" && "rotate-180 scale-0",
                     "h-[1.2rem] w-[1.2rem] transition-all"
                 )}
             />
             <CH
                 className={cn(
                     "absolute h-[1.2rem] w-[1.2rem]",
-                    langCode === "en" && "rotate-90 scale-0",
+                    langCode === "en" && "rotate-180 scale-0",
                     langCode === "de" && "rotate-0 scale-100",
                     "transition-all"
                 )}

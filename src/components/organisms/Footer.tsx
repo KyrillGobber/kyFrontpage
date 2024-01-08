@@ -26,7 +26,7 @@ const FooterSrc = () => {
         <a
             className="flex flex-row gap-2 text-sm md:text-base"
             target="_blank"
-            href={'https://github.com/KyrillGobber/teaBruh'}
+            href={'https://github.com/KyrillGobber/kyFrontpage'}
             rel="noopener noreferrer"
         >
             {t("footer.source")}

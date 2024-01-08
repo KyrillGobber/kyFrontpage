@@ -1,7 +1,18 @@
-import { useTranslation } from "react-i18next";
+import { CareerBlock } from "./CareerBlock";
+import { SkillTags } from "./SkillTags";
+import { SetupCarousel } from "../molecules/SetupCarousel";
 
 export const MainContent = () => {
-    const { t } = useTranslation();
-    return <h1>{t('random')}</h1>;
+    return (
+        <div className="container grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+                <CareerBlock />
+            </div>
+            <div className="flex flex-col gap-4">
+                <SkillTags />
+                <SetupCarousel />
+            </div>
+        </div>
+    );
 };
 
