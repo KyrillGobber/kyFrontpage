@@ -10,7 +10,7 @@ export const MainContent = () => {
                 <CareerBlock />
             </div>
             <div className="flex flex-col gap-4">
-                <img src={Portrait} alt="Portrait" className="scale-75" />
+                <img src={Portrait} alt="Portrait" className="scale-75 rounded-2xl" />
                 <SkillTags />
                 <SetupCarousel />
             </div>

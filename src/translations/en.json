@@ -1,5 +1,7 @@
 {
-    "random": "english",
+    "general": {
+        "desc": "Description"
+    },
     "languages": {
         "english": "English",
         "german": "German"
@@ -13,21 +15,35 @@
     },
     "career": {
         "title": "Career",
-        "desc": "My past work experience"
+        "desc": "My past work experience",
+        "experienceDesc": "Job description and tasks",
+        "skillsAndTechstack": "Techstack and skills"
     },
     "experiences": {
         "netlive": {
-            "title": "Full-Stack Web Developer, focus on frontend",
+            "title": "Full-Stack Web Developer",
             "companyName": "Netlive AG",
             "time": "01.07.2023 - present",
+            "desc": "Neues Risk Management Tool für Banken. Planung und Design der App bis Live Schaltung.",
             "task1": "Risk management tool for banks",
-            "task2": "Planning and building the app from ground up",
+            "task2": "Scrum Master",
             "task3": "React frontend, C# GraphQL backend"
         },
         "nu": {
             "title": "Full-Stack Web Developer and Scrum Master",
-            "companyName": "CleoAG / Nu Education",
+            "companyName": "Nu Education",
             "time": "01.10.2021 - 31.3.2023",
+            "desc": "Startup. Development of a new learning platform for schools, universities etc. Leading the team as Scrum Master and full-stack development including DevOps tasks",
+            "task1": "Next.JS Frontend with TailwindCSS",
+            "task2": "Java Spring Boot and JPA Backend",
+            "task3": "Scrum Master in Core Team",
+            "task4": "Various DevOps Tasks, Docker, Ansible etc."
+        },
+        "CleoAG": {
+            "title": "Full-Stack Web Developer",
+            "companyName": "Cleo AG",
+            "time": "01.10.2021 - 31.3.2023",
+            "desc": "Working as a full-stack Software Consultant for many different customers, including banks and startups.",
             "task1": "Next.JS Frontend with TailwindCSS",
             "task2": "Java Spring Boot and JPA Backend",
             "task3": "Scrum Master in Core Team",

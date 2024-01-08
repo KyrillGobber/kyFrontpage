@@ -1,5 +1,7 @@
 {
-    "random": "dütsch",
+    "general": {
+        "desc": "Beschreibung"
+    },
     "languages": {
         "english": "Englisch",
         "german": "Deutsch"
@@ -13,24 +15,38 @@
     },
     "career": {
         "title": "Werdegang",
-        "desc": "Meine vergangene Arbeitserfahrung"
+        "desc": "Meine vergangene Arbeitserfahrung",
+        "experienceDesc": "Jobbeschreibung und Aufgaben",
+        "skillsAndTechstack": "Technologien und Skills"
     },
     "experiences": {
         "netlive": {
-            "title": "Full-Stack Web Developer, Fokus Frontend",
+            "title": "Full-Stack Web Developer",
             "companyName": "Netlive AG",
             "time": "01.07.2023 - present",
+            "desc": "Neues Risk Management Tool für Banken. Planung und Design der App bis Live Schaltung.",
             "task1": "Risk Management Tool für Banken",
-            "task2": "Planung und Aufbau des neuen Produkts",
+            "task2": "Scrum Master",
             "task3": "React Frontend, C#, GraphQL Backend"
         },
         "nu": {
             "title": "Full-Stack Webentwickler und Scrum Master",
-            "companyName": "CleoAG / Nu Education",
+            "companyName": "Nu Education",
             "time": "01.10.2021 - 31.3.2023",
+            "desc": "Startup. Umsetzung einer neuen Lernplatform für Schulen, Unis usw. Leiten des Teams als Scrum Master und Full-Stack Entwicklung sowie Aufgaben im Devops Bereich.",
             "task1": "Next.JS Frontend mit TailwindCSS",
             "task2": "Java Spring Boot und JPA Backend",
             "task3": "Scrum Master im Core Team",
+            "task4": "Various DevOps Tasks, Docker, Ansible etc."
+        },
+        "CleoAG": {
+            "title": "Full-Stack Web Developer",
+            "companyName": "Cleo AG",
+            "time": "01.10.2021 - 31.3.2023",
+            "desc": "Workign as a full-stack Software Consultant for many different customers, including banks and startups.",
+            "task1": "Next.JS Frontend with TailwindCSS",
+            "task2": "Java Spring Boot and JPA Backend",
+            "task3": "Scrum Master in Core Team",
             "task4": "Various DevOps Tasks, Docker, Ansible etc."
         },
         "sgkb": {
