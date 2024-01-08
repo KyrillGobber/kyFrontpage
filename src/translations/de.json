@@ -19,6 +19,13 @@
         "experienceDesc": "Jobbeschreibung und Aufgaben",
         "skillsAndTechstack": "Technologien und Skills"
     },
+    "contact": {
+        "title": "Kontakt Informationen",
+        "desc": "So könnt ihr mich erreichen",
+        "name": "Kyrill Gobber",
+        "email": "info@gobber.ch",
+        "extra": ""
+    },
     "experiences": {
         "netlive": {
             "title": "Full-Stack Web Developer",
