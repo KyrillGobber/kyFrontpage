@@ -9,10 +9,10 @@ export const SetupCarousel = () => {
             <Carousel className="rounded-xl">
                 <CarouselContent>
                     <CarouselItem>
-                        <img src={SetupNormal} alt="SetupNormal" />
+                        <img src={SetupNormal} alt="SetupNormal" className="rounded-xl" />
                     </CarouselItem>
                     <CarouselItem>
-                        <img src={SetupFancy} alt="SetupFancy" />
+                        <img src={SetupFancy} alt="SetupFancy" className="rounded-xl" />
                     </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious />

@@ -8,7 +8,7 @@ import {
     DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 import { Button } from "../ui/button";
-import EN from "../../assets/countries/us.svg?react";
+import EN from "../../assets/countries/gb.svg?react";
 import CH from "../../assets/countries/ch.svg?react";
 import { cn } from "@/lib/utils";
 
