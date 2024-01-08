@@ -1,10 +1,11 @@
-import { Code } from "lucide-react";
+import { AtSign, Code, Github, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
     return (
-        <footer className="mt-auto mb-6 flex flex-col justify-center items-center bottom-0">
+        <footer className="mt-auto mb-6 flex flex-col justify-center items-center bottom-0 gap-4">
             <FooterText />
+            <FooterSocials />
             <FooterSrc />
         </footer>
     );
@@ -19,6 +20,34 @@ const FooterText = () => {
         </p>
     );
 };
+
+const FooterSocials = () => {
+    return (
+        <div className="grid grid-flow-col gap-4">
+            <a
+                target="_blank"
+                href={'mailto:kyrill@gobber.ch'}
+                rel="noopener noreferrer"
+            >
+                <AtSign />
+            </a>
+            <a
+                target="_blank"
+                href={'https://github.com/KyrillGobber'}
+                rel="noopener noreferrer"
+            >
+                <Github />
+            </a>
+            <a
+                target="_blank"
+                href={'https://www.linkedin.com/in/kyrill-gobber-022a71199/'}
+                rel="noopener noreferrer"
+            >
+                <Linkedin />
+            </a>
+        </div>
+    );
+}
 
 const FooterSrc = () => {
     const { t } = useTranslation();
