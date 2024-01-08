@@ -47,7 +47,7 @@ const Badges = () => {
                             {skill}
                         </Badge>
                     </HoverCardTrigger>
-                    <HoverCardContent>
+                    <HoverCardContent className="flex justify-center">
                         <a
                             className="underline"
                             target="_blank"
