@@ -18,7 +18,7 @@ function App() {
                 </div>
                 <Footer />
             </main>
-            <Toaster />
+            <Toaster duration={2000} />
         </div>
     )
 }
