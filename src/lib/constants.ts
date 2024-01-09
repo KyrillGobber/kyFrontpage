@@ -45,7 +45,7 @@ export type Experience = {
     time: string;
     desc: string;
     tasks: string[];
-}
+};
 
 export const Experiences: Experience[] = [
     {
@@ -108,9 +108,7 @@ export const Experiences: Experience[] = [
         company: "experiences.mil.companyName",
         time: "experiences.mil.time",
         desc: "experiences.mil.desc",
-        tasks: [
-            "experiences.mil.task",
-        ],
+        tasks: ["experiences.mil.task"],
     },
     {
         title: "experiences.gzi.title",
@@ -124,3 +122,4 @@ export const Experiences: Experience[] = [
         ],
     },
 ];
+
