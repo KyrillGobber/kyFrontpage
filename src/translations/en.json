@@ -2,6 +2,13 @@
     "general": {
         "desc": "Description"
     },
+    "hero": {
+        "quotePart1": "“Live as if you were to die tomorrow.”",
+        "quotePart2": "“Learn as if you were to live forever.”",
+        "gandhi": "Mahatma Gandhi",
+        "entryText": "We all use websites and apps in everyday life and often wonder why many things have to be complicated. As a software developer with a focus on Frontend development, I see it as my duty to provide high quality and cutting edge UX and clean code. The success of the product ultimately lies in the hands of the users.",
+        "discover": "Discover more about me and my work"
+    },
     "languages": {
         "english": "English",
         "german": "German"
@@ -21,7 +28,7 @@
     },
     "contact": {
         "title": "Contact information",
-        "desc": "How to reach me",
+        "desc": "Interested in working together? Contact me via email.",
         "name": "Kyrill Gobber",
         "email": "info@gobber.ch",
         "extra": ""

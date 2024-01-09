@@ -6,11 +6,11 @@ import { ContactCard } from "./ContactCard";
 
 export const MainContent = () => {
     return (
-        <div className="container grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="container pt-32 grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
                 <CareerBlock />
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col justify-start items-start gap-4">
                 <img src={Portrait} alt="Portrait" className="scale-75 rounded-2xl" />
                 <SkillTags />
                 <SetupCarousel />
