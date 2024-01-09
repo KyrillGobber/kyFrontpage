@@ -28,10 +28,9 @@
     },
     "contact": {
         "title": "Kontakt Informationen",
-        "desc": "Wollen wir Zusammenarbeiten? Schreibe mir eine E-Mail.",
+        "desc": "Wollen wir zusammenarbeiten? Schreibe mir eine E-Mail.",
         "name": "Kyrill Gobber",
-        "email": "info@gobber.ch",
-        "extra": ""
+        "email": "info@gobber.ch"
     },
     "experiences": {
         "netlive": {

@@ -30,8 +30,7 @@
         "title": "Contact information",
         "desc": "Interested in working together? Contact me via email.",
         "name": "Kyrill Gobber",
-        "email": "info@gobber.ch",
-        "extra": ""
+        "email": "info@gobber.ch"
     },
     "experiences": {
         "netlive": {
