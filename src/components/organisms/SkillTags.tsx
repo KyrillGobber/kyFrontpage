@@ -8,11 +8,7 @@ import {
 } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { MySkills } from "@/lib/constants";
-import {
-    HoverCard,
-    HoverCardContent,
-    HoverCardTrigger,
-} from "../ui/hover-card";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../ui/tooltip";
 
 export const SkillTags = () => {
     const { t } = useTranslation();
@@ -41,23 +37,25 @@ const Badges = () => {
     return MySkills.map((skill) => {
         if (skill.includes("Linux")) {
             return (
-                <HoverCard openDelay={500}>
-                    <HoverCardTrigger>
-                        <Badge key={skill} className="sm:text-md cursor-default">
-                            {skill}
-                        </Badge>
-                    </HoverCardTrigger>
-                    <HoverCardContent className="flex justify-center">
-                        <a
-                            className="underline"
-                            target="_blank"
-                            href={"https://github.com/KyrillGobber/.dotfiles"}
-                            rel="noopener noreferrer"
-                        >
-                            Arch btw x)
-                        </a>
-                    </HoverCardContent>
-                </HoverCard>
+                <TooltipProvider>
+                    <Tooltip>
+                        <TooltipTrigger>
+                            <Badge key={skill} className="text-md cursor-default">
+                                {skill}
+                            </Badge>
+                        </TooltipTrigger>
+                        <TooltipContent className="flex justify-center">
+                            <a
+                                className="underline"
+                                target="_blank"
+                                href={"https://github.com/KyrillGobber/.dotfiles"}
+                                rel="noopener noreferrer"
+                            >
+                                Arch btw x)
+                            </a>
+                        </TooltipContent>
+                    </Tooltip>
+                </TooltipProvider>
             );
         }
         return (
