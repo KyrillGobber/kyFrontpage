@@ -22,7 +22,7 @@ export const ContactCard = () => {
                     href={"mailto:info@gobber.ch"}
                     rel="noopener noreferrer"
                 >
-                    <Button variant="secondary">{t("contact.email")}</Button>
+                    <Button variant="secondary" className="text-xl font-bold">{t("contact.email")}</Button>
                 </a>
             </CardContent>
         </Card>
