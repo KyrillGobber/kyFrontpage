@@ -43,7 +43,7 @@ const Badges = () => {
             return (
                 <HoverCard openDelay={500}>
                     <HoverCardTrigger>
-                        <Badge key={skill} className="text-md cursor-default">
+                        <Badge key={skill} className="sm:text-md cursor-default">
                             {skill}
                         </Badge>
                     </HoverCardTrigger>
