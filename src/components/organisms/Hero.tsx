@@ -15,7 +15,7 @@ export const Hero = () => {
                     </div>
                     <p className="pl-52 sm:pl-96 dark:animate-fadeIn dark:delay-1000">{`-${t('hero.gandhi')}`}</p>
                 </div>
-                <div className="container sm:w-1/3 dark:animate-fadeIn dark:delay-2000">
+                <div className="container md:w-1/3 sm:w-1/2 dark:animate-fadeIn dark:delay-2000">
                     <p>{t('hero.entryText')}</p>
                 </div>
                 <a href="#main" className={cn(buttonVariants({ variant: "ghost" }),"dark:animate-fadeIn dark:delay-2000 gap-2")}>{t('hero.discover')}<ChevronDown/></a>

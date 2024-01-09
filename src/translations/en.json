@@ -13,6 +13,9 @@
         "english": "English",
         "german": "German"
     },
+    "profile": {
+        "text": "Hi, I'm Kyrill, a Web Developer from Switzerland."
+    },
     "nav": {
         "myApps": "My Apps",
         "myPlace": "My small place in the internet.",
@@ -41,61 +44,68 @@
             "title": "Full-Stack Web Developer",
             "companyName": "Netlive AG",
             "time": "01.07.2023 - present",
-            "desc": "Neues Risk Management Tool für Banken. Planung und Design der App bis Live Schaltung.",
+            "desc": "New Risk Management Tool for Banks. Planning and design of the new product in close collaboration with the customer, including golive and introduction of the new product.",
             "task1": "Risk management tool for banks",
-            "task2": "Scrum Master",
-            "task3": "React frontend, C# GraphQL backend"
+            "task2": "Managing the Scrum Team",
+            "task3": "React Typescript frontend",
+            "task4": "React Router V6, React Hook Form, Flowbite UI Library and URQL for fetching data from GraphQL API",
+            "task5": "Backend in C# .net, GraphQL API"
         },
         "nu": {
             "title": "Full-Stack Web Developer and Scrum Master",
             "companyName": "Nu Education",
             "time": "01.10.2021 - 31.3.2023",
-            "desc": "Startup. Development of a new learning platform for schools, universities etc. Leading the team as Scrum Master and full-stack development including DevOps tasks",
+            "desc": "Startup for a new learning platform for schools, universities, etc. Leading the team as Scrum Master and implementation of the app as full-stack developer with tasks in the Devops area.",
             "task1": "Next.JS Frontend with TailwindCSS",
-            "task2": "Java Spring Boot and JPA Backend",
-            "task3": "Scrum Master in Core Team",
-            "task4": "Various DevOps Tasks, Docker, Ansible etc."
+            "task2": "Own frontend component Library, data fetching from the REST API with SWR",
+            "task3": "Backend with Java Spring Boot and JPA, REST API",
+            "task4": "Scrum Master in the core team",
+            "task5": "Various DevOps Tasks, Docker, Ansible, Github Actions etc."
         },
         "cleoAG": {
             "title": "Full-Stack Web Developer",
             "companyName": "Cleo AG",
             "time": "01.10.2021 - 31.3.2023",
-            "desc": "Working as a full-stack Software Consultant for many different customers, including banks and startups.",
-            "task1": "Next.JS Frontend with TailwindCSS",
-            "task2": "Java Spring Boot and JPA Backend",
-            "task3": "Scrum Master in Core Team",
-            "task4": "Various DevOps Tasks, Docker, Ansible etc."
+            "desc": "Working as a full-stack Software Consultant different customers, including banks and startups. With tasks in the Backend and Frontend.",
+            "task1": "Multiple different tasks as Frontend Developer with React and Angular",
+            "task2": "Tasks in Backend with Java Spring Boot and JPA"
         },
         "sgkb": {
             "title": "Software Developer Avaloq",
             "companyName": "St. Galler Kantonalbank",
             "time": "01.2020 - 07.2021",
+            "desc": "Development of Avaloq extensions and interfaces for the St. Galler Kantonalbank in the Bankenstream Assets and Trading",
             "task1": "Bankstream Assets and trading",
-            "task2": "Subject area: Assets, market data, Transaction Reporting",
-            "task3": "Document interface: Docwrite"
+            "task2": "Parametrize the internal Avaloq Software",
+            "task3": "Responsible areas: Assets, market data, Transaction Reporting",
+            "task4": "Responsibility and development of the Document Interface Docwrite"
         },
         "aba": {
             "title": "Java Software Developer",
             "companyName": "Abacus Research AG",
             "time": "01.2015 - 08.2019",
-            "task1": "Abacus application AbaBau",
-            "task2": "Development in a Scrum Team",
-            "task3": "Java with company intern frameworks"
+            "desc": "Software Development for AbaBuild - The software for the construction industry.",
+            "task1": "Development of the desktop application in Java",
+            "task2": "House internal database framework for Pervasive",
+            "task3": "Development in a Scrum Team"
         },
         "mil": {
             "title": "Swiss army service",
             "companyName": "Dübendorf / Frauenfeld",
             "time": "10.2013 - 07.2014",
+            "desc": "Fullfillment of the Swiss army duty.",
             "task": "Sergeant, Grouplead function as IT Pioneer"
         },
         "gzi": {
             "title": "Applikationosentwickler EFZ",
             "companyName": "gzinformatik GmbH",
             "time": "08.2009 - 08.2013",
-            "task1": "C und C++",
+            "desc": "Apprenticeship as IT Application Developer EFZ. Intern training in C with customer specific tasks for C++ tools. Graduation at the GBSSG school.",
+            "task1": "Coding in C and C++",
             "task2": "Qt Framework",
             "task3": "PostgreSQL",
-            "task4": "Coding for internal and customer specific apps"
+            "task4": "Tasks for internal and customer specific applications",
+            "task5": "Graduation as IT Application Developer EFZ at the GBSSG"
         }
     },
     "skills": {

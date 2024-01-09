@@ -57,6 +57,8 @@ export const Experiences: Experience[] = [
             "experiences.netlive.task1",
             "experiences.netlive.task2",
             "experiences.netlive.task3",
+            "experiences.netlive.task4",
+            "experiences.netlive.task5",
         ],
     },
     {
@@ -68,6 +70,8 @@ export const Experiences: Experience[] = [
             "experiences.nu.task1",
             "experiences.nu.task2",
             "experiences.nu.task3",
+            "experiences.nu.task4",
+            "experiences.nu.task5",
         ],
     },
     {
@@ -78,7 +82,6 @@ export const Experiences: Experience[] = [
         tasks: [
             "experiences.cleoAG.task1",
             "experiences.cleoAG.task2",
-            "experiences.cleoAG.task3",
         ],
     },
     {
@@ -90,6 +93,7 @@ export const Experiences: Experience[] = [
             "experiences.sgkb.task1",
             "experiences.sgkb.task2",
             "experiences.sgkb.task3",
+            "experiences.sgkb.task4",
         ],
     },
     {
@@ -119,6 +123,8 @@ export const Experiences: Experience[] = [
             "experiences.gzi.task1",
             "experiences.gzi.task2",
             "experiences.gzi.task3",
+            "experiences.gzi.task4",
+            "experiences.gzi.task5",
         ],
     },
 ];

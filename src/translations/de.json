@@ -13,6 +13,9 @@
         "english": "Englisch",
         "german": "Deutsch"
     },
+    "profile": {
+        "text": "Hi, I'm Kyrill, a Web Developer from Switzerland."
+    },
     "nav": {
         "myApps": "Meine Apps",
         "myPlace": "Mein kleiner Ort im Internet.",
@@ -41,30 +44,31 @@
             "title": "Full-Stack Web Developer",
             "companyName": "Netlive AG",
             "time": "01.07.2023 - present",
-            "desc": "Neues Risk Management Tool für Banken. Planung und Design der App bis Live Schaltung.",
+            "desc": "Neues Risk Management Tool für Banken. Planung und Design des Produkts, in enger Zusammenarbeit mit dem Kunden bis zur Live Schaltung und Einführung.",
             "task1": "Risk Management Tool für Banken",
-            "task2": "Scrum Master",
-            "task3": "React Frontend, C#, GraphQL Backend"
+            "task2": "Management des Scrum Teams",
+            "task3": "React Typescript Frontend",
+            "task4": "React Router V6, React Hook Form, Flowbite UI Library und URQL für data fetching vom GraphQL API",
+            "task5": "Backend in C# .net, GraphQL API"
         },
         "nu": {
             "title": "Full-Stack Webentwickler und Scrum Master",
             "companyName": "Nu Education",
             "time": "01.10.2021 - 31.3.2023",
-            "desc": "Startup. Umsetzung einer neuen Lernplatform für Schulen, Unis usw. Leiten des Teams als Scrum Master und Full-Stack Entwicklung sowie Aufgaben im Devops Bereich.",
+            "desc": "Startup für eine neue Lernplattform für Schulen, Unis usw. Leiten des Teams als Scrum Master und Umsetzung der App als Full-Stack Entwickler sowie Aufgaben im Devops Bereich.",
             "task1": "Next.JS Frontend mit TailwindCSS",
-            "task2": "Java Spring Boot und JPA Backend",
-            "task3": "Scrum Master im Core Team",
-            "task4": "Various DevOps Tasks, Docker, Ansible etc."
+            "task2": "Eigene Frontend Component Library, data fetching vom REST API mit SWR",
+            "task3": "Backend in Java Spring Boot und JPA, REST API",
+            "task4": "Scrum Master im Core Team",
+            "task5": "Verschiedene DevOps Tasks, Docker, Ansible, Github Actions etc."
         },
         "cleoAG": {
             "title": "Full-Stack Web Developer",
             "companyName": "Cleo AG",
             "time": "01.10.2021 - 31.3.2023",
-            "desc": "Workign as a full-stack Software Consultant for many different customers, including banks and startups.",
-            "task1": "Next.JS Frontend with TailwindCSS",
-            "task2": "Java Spring Boot and JPA Backend",
-            "task3": "Scrum Master in Core Team",
-            "task4": "Various DevOps Tasks, Docker, Ansible etc."
+            "desc": "Arbeit als Software-Consultant für verschiedene Kunden, Banken, Startups usw. Mit Arbeiten im Backend sowie Frontend.",
+            "task1": "Verschiedene Aufgaben im Frontend mit React und Angular",
+            "task2": "Aufgaben im Backend mit Java Spring Boot und JPA"
         },
         "sgkb": {
             "title": "Software Developer Avaloq",
@@ -72,32 +76,36 @@
             "time": "01.2020 - 07.2021",
             "desc": "Entwicklung von Avaloq Erweiterungen und Schnittstellen für die St. Galler Kantonalbank im Bankenstream Anlegen und Handel",
             "task1": "Bankstream Anlegen und Handel",
-            "task2": "Sachgebiet: Asset, Marktdaten, Transaction Reporting",
-            "task3": "Dokumentenschnittstelle Docwrite"
+            "task2": "Parametrisieren der internen Avaloq Software",
+            "task3": "Verantwortliche Bereiche: Assets, market data, Transaction Reporting",
+            "task4": "Verantwortung und Weiterentwicklung der Dokumenten Schnittstelle Docwrite"
         },
         "aba": {
             "title": "Java Softwareentwickler",
             "companyName": "Abacus Research AG",
             "time": "01.2015 - 08.2019",
-            "desc": "Entwicklung von Avaloq Erweiterungen und Schnittstellen für die St. Galler Kantonalbank im Bankenstream Anlegen und Handel",
-            "task1": "Abacus Applikation AbaBau",
-            "task2": "Entwicklung im Scrum Team",
-            "task3": "Java mit hausinternen Frameworks"
+            "desc": "Entwicklung für AbaBau - Die Software für das Bauhauptgewerbe.",
+            "task1": "Entwicklung der Desktop Applikation in Java",
+            "task2": "Hausinternes Framework für Umgang mit der Pervasive Datenbank",
+            "task3": "Entwicklung im Scrum Team"
         },
         "mil": {
             "title": "Militärdienst",
             "companyName": "Dübendorf / Frauenfeld",
             "time": "10.2013 - 07.2014",
+            "desc": "Erfüllung der Militärpflicht.",
             "task": "Wachtmeister, Funktion Gruppenführer als Informatikpionier"
         },
         "gzi": {
             "title": "Applikationosentwickler EFZ",
             "companyName": "gzinformatik GmbH",
             "time": "08.2009 - 08.2013",
+            "desc": "Lehre als Informatiker Applikationsentwickler EFZ. Ausbildung Firmenintern als C Entwickler und interne sowie Kundenspezifische Aufgaben in C++ Tools. Abschluss der Ausbildung an der GBSSG",
             "task1": "C und C++ Programmierung",
             "task2": "Qt Framework",
             "task3": "PostgreSQL",
-            "task4": "Arbeit für interne und Kundenspezifische Applikationen"
+            "task4": "Arbeit für interne und Kundenspezifische Applikationen",
+            "task5": "Abschluss der Lehre als  Informatiker Applikationsentwickler EFZ an der GBSSG"
         }
     },
     "skills": {
