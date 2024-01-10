@@ -7,7 +7,7 @@ import {
     CardTitle,
 } from "../ui/card";
 import { Button, buttonVariants } from "../ui/button";
-import { ClipboardList, Copy } from "lucide-react";
+import { Copy } from "lucide-react";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
