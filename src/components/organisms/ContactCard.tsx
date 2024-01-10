@@ -7,7 +7,7 @@ import {
     CardTitle,
 } from "../ui/card";
 import { Button, buttonVariants } from "../ui/button";
-import { ClipboardList } from "lucide-react";
+import { ClipboardList, Copy } from "lucide-react";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
@@ -35,7 +35,7 @@ export const ContactCard = () => {
                     {t("contact.email")}
                 </a>
                 <Button variant="secondary" onClick={() => handleOnCopyClick()}>
-                    <ClipboardList />
+                    <Copy />
                 </Button>
             </CardContent>
         </Card>
