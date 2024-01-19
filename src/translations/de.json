@@ -54,7 +54,7 @@
         "nu": {
             "title": "Full-Stack Webentwickler und Scrum Master",
             "companyName": "Nu Education",
-            "time": "01.10.2021 - 31.3.2023",
+            "time": "01.10.2022 - 31.3.2023",
             "desc": "Startup für eine neue Lernplattform für Schulen, Unis usw. Leiten des Teams als Scrum Master und Umsetzung der App als Full-Stack Entwickler sowie Aufgaben im Devops Bereich.",
             "task1": "Next.JS Frontend mit TailwindCSS",
             "task2": "Eigene Frontend Component Library, data fetching vom REST API mit SWR",
@@ -65,7 +65,7 @@
         "cleoAG": {
             "title": "Full-Stack Web Developer",
             "companyName": "Cleo AG",
-            "time": "01.10.2021 - 31.3.2023",
+            "time": "01.10.2021 - 31.09.2022",
             "desc": "Arbeit als Software-Consultant für verschiedene Kunden, Banken, Startups usw. Mit Arbeiten im Backend sowie Frontend.",
             "task1": "Verschiedene Aufgaben im Frontend mit React und Angular",
             "task2": "Aufgaben im Backend mit Java Spring Boot und JPA"
