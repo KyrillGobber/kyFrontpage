@@ -47,9 +47,10 @@
             "desc": "New Risk Management Tool for Banks. Planning and design of the new product in close collaboration with the customer, including golive and introduction of the new product.",
             "task1": "Risk management tool for banks",
             "task2": "Managing the Scrum Team",
-            "task3": "React Typescript frontend",
-            "task4": "React Router V6, React Hook Form, Flowbite UI Library and URQL for fetching data from GraphQL API",
-            "task5": "Backend in C# .net, GraphQL API"
+            "task3": "Closely work with the design team to shape the product",
+            "task4": "React Typescript frontend",
+            "task5": "React Router V6, React Hook Form, Flowbite UI Library and URQL for fetching data from GraphQL API",
+            "task6": "Backend in C# .net, GraphQL API"
         },
         "nu": {
             "title": "Full-Stack Web Developer and Scrum Master",
